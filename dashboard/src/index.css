@@ -1,0 +1,52 @@
+:root {
+  --bg-main: #f5f2ed;
+  --bg-card: #ffffff;
+  --bg-sidebar: #0c3542;
+  --bg-sidebar-hover: #0f4555;
+  --accent: #e07c5a;
+  --accent-hover: #c96a4a;
+  --teal: #2a9d8f;
+  --teal-light: #7dd3c8;
+  --text: #1a1a1a;
+  --text-muted: #5c5c5c;
+  --border: #e8e4de;
+  --shadow: 0 4px 24px rgba(12, 53, 66, 0.08);
+  --shadow-lg: 0 12px 48px rgba(12, 53, 66, 0.12);
+  --radius: 16px;
+  --radius-sm: 12px;
+  --font-head: 'Outfit', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-main);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, textarea {
+  font-family: inherit;
+}

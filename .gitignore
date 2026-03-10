@@ -1,0 +1,26 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.env
+.env.local
+*.log
+
+# Keep data/.env.example if you use one; ignore real secrets
+data/.env
+
+# Node / dashboard
+dashboard/node_modules/
+dashboard/dist/
+
+# FAISS vector store (optional: remove if you want to commit the built index)
+# vectorstore/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
